@@ -1,0 +1,3 @@
+My personalized version of Roibal's crypto bot
+https://github.com/Roibal/Cryptocurrency-Trading-Bots-Python-Beginner-Advance
+

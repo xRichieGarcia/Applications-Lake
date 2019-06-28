@@ -1,0 +1,16 @@
+add external libraries to lambda function for master.py
+documentation:
+https://docs.aws.amazon.com/lambda/latest/dg/
+lambda-python-how-to-create-deployment-package.html
+
+put master.py on a timer in CloudWatch
+
+make a movie out of 3 frames
+
+host the movie on onizen
+
+find out how to append new frames to the movie
+
+make append-frames.py a Lambda function that updates onizen backend
+
+put append-frames.py on a timer

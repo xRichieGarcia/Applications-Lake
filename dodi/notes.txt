@@ -1,0 +1,19 @@
+Dodi is a mirrored polyhedron made with Neopixels, programmable LEDs. Most of the python files in this folder import master.py, and generate numpy arrays that represent what Dodi is going to do.
+Dodi is powered by a raspberry pi. venv_requirements.txt shows the packages that dodi depends on. master2.py and master3.py are attempts at organizing the source code better.
+
+Possible features to be add is a "sound reactive mode" where paths are dependent on a sound sensor. 
+Another is to add a remote control that will cycle through patterns and maybe allow for variable intensities as well.
+
+new patterns to test:
+droplets_edge2.py 
+blinker.py
+pink_palace.py
+chromatic_dance.py
+candy_cane.py
+snake_game.py
+
+get rid of one if not both. rainbow_road is sine based anyway
+color_whip.py
+pulsate.py
+
+old patterns to revisit:

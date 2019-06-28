@@ -1,0 +1,14 @@
+Turns out OpenCV can not append frames to an existing video file. Every frame would need to be uploaded to memory every time I want to update the video.
+
+Now I temporarily increase the storage of the environment, sync a folder in goes-stich/
+with my s3 bucket using
+
+    aws s3 sync s3://bucket-name/goes-conus .
+
+rename to 0001.jpg, 0002.jpg... format using
+
+    find . -name '*.jpg' | awk 'BEGIN{ a=0 }{ printf "mv %s %04d.jpg\n', $0, a++ }" | bash
+    
+then create the avi with ffmpeg
+
+    ffmpeg -framerate 24 -i %06d.jpg 0001.avi

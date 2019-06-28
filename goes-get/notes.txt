@@ -1,0 +1,9 @@
+make a movie out of 3 frames
+
+host the movie on onizen
+
+find out how to append new frames to the movie
+
+make append-frames.py a Lambda function that updates onizen backend
+
+put append-frames.py on a timer
